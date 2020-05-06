@@ -8,7 +8,6 @@ THIS PROJECT CONTAINS FOUR PARTS-
 
 WE ARE USING JENKINS TO INTEGRATE ALL OF THEM TOGETHER.
 
-1.--First in developer part:
 We are creating a repository "May5task" in github.
 In git bash command line I am cloning this repository,creating new branch, making changes in index.html file in both master and dev1 branch and pushing it to github using git hooks automatically after commit.
 In jenkins I am building one job for dev1 branch and one for master branch.
